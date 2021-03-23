@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aplicatie paint canvas</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="1_1078_BORDEIANU_Ana_Maria.css"
+    />
+  </head>
+
+  <body>
+    <h1 style="text-align: center">Paint</h1>
+
+    <div class="controale">
+      <label for="grosime">Grosime</label>
+      <input type="range" id="grosime" min="1" max="50" />
+      <label for="color">Culoare </label>
+      <input type="color" id="culoare" name="culoare" value="#000000" />
+      <label for="color">Fundal </label>
+      <input type="color" id="fundal" name="fundal" value="#000000" />
+      <button id="linie">Linie</button>
+      <button id="dreptunghi">Dreptunghi</button>
+      <button id="elipsa">Elipsa</button>
+      <button id="triunghi">Triunghi</button>
+      <button id="salvare">Salvare</button>
+      <button id="stergere">Stergere</button>
+    </div>
+
+    <div id="continut">
+      <canvas id="canvas1"></canvas>
+    </div>
+
+    <script src="1_1078_BORDEIANU_Ana_Maria.js"></script>
+  </body>
+</html>

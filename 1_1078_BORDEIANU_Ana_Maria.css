@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dee4be;
+}
+
+#continut {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 2px solid #e0e0e0;
+  display: flex;
+  flex-grow: 1;
+  background-color: white;
+}
+
+button {
+  background-color: #e0e0e0;
+  border-color: solid black;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  padding: 5px;
+  height: 25px;
+  outline: none;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.controale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+}
